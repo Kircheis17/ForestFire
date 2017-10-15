@@ -1,0 +1,21 @@
+Writeup 1:
+
+Due Thursday, Oct.19th.
+
+1.1 The gameboard for Playing Fire
+
+1.1.1 Read From Map(The testfile will released on Tuesday)
+
+Open a file to read in the longitude, latitude and also the altitude.
+
+The longitude and latitude should be the navigator of a cell. Just like the rows and column. So create a canvas behind the it.
+
+Also, the altitude should representing the height of a grid itself. So that the contour can be draw as the gridline.
+
+  In order to do that, the cell should be able to judge its neighbors to see whether they have higher or lower height than them. If the
+  neighbors are higher. Then the contour shod be draw at the lower side( the side which is further from the higher neighbors).
+  
+1.1.2 The board Canvas
+
+
+  
