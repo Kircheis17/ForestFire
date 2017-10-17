@@ -17,7 +17,7 @@ Also, the altitude should representing the height of a grid itself. So that the 
   
 1.1.2 Draw board Canvas
 
-1.1.3 Draw Gridlines as contour(The testfile will released on Tuesday)
+1.1.3 Draw Gridlines as contour(The testfile will released on Next Tuesday)
 
 1.1.4 Coming up with dominant parameters
 
