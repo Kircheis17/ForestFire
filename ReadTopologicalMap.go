@@ -10,14 +10,18 @@ type Cell struct {
 	terranType string
 }
 
-func ReadTopologicalMap() {
+func ReadTopologicalMap() [][]Cell {
 	mapname := os.Args[1]
 	maphandle,_ := os.Open(mapname)
-	
+  //read in all the map variable inc
+  
+	maphandle.Close()
 }
 
 
 
 func main() {
+
+  ReadTopologicalMap()
 
 }
