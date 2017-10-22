@@ -4,7 +4,7 @@ Due Friday, Oct.27th.
 
 1.2 Get Down All Parameters
 
-1.1.1 Outside Parameter
+1.2.1 Outside Parameter
 
 The outside parameter should be something that will change the rule of spreading. Such as the wind.
 
