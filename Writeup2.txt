@@ -1,0 +1,31 @@
+Writeup 2:
+
+Due Friday, Oct.27th.
+
+1.2 Get Down All Parameters
+
+1.1.1 Outside Parameter
+
+The outside parameter should be something that will change the rule of spreading. Such as the wind.
+
+To be specified and simplified, we initially set the wind to be the only outside parameter.
+
+Wind in wildfire is a crucial factor. Look up the literatures(1.1.5) to certify the influence through a formula.
+
+Design a system that when the outside wind speed changes, the spreading rate will also changes.The direction don't need to be taken into account now.
+
+So the wind speed should be a random number that changes for a period of time. The func RandWindSpeed() should be called to execute in the iteration by using the time package.
+
+1.2.2 Inside Parameter
+
+The inside parameter including the altitude and the terrantype.
+
+the altitude representing the spreading rate and the diffculty level of extinguishing. The larger differential of altitude is, the steeper mount is.In the steeper area, the fire goes up so quickly that stops the fireman from actual practice. (in usual, the speed of the wildfire goes up to the top along the mountline is far quicker then those which goes down.)
+
+And also the rockslide and water source can be great place to begin with in extinguishing part. To considerate the most effecient way, consider the shortest paths to those place or set the preventwall near them.
+
+1.2.3 Applying the outside parameter to the gameboard
+
+1.2.4 Applying the inside parameter to the gameboard
+
+1.2.5 Ralevant Literatures
